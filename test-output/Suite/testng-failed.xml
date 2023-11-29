@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="com.Procure.Admin.addretailerandsearchorderTest">
+        <methods>
+          <include name="bC"/>
+          <include name="addretailerandsearchorder"/>
+        </methods>
+      </class> <!-- com.Procure.Admin.addretailerandsearchorderTest -->
+      <class name="com.Procure.EditProfileModule.changepasswordmanufacturerTest">
+        <methods>
+          <include name="bC"/>
+          <include name="changepasswordmanufacturer"/>
+        </methods>
+      </class> <!-- com.Procure.EditProfileModule.changepasswordmanufacturerTest -->
+      <class name="com.Procure.AddProductModule.addproductbymanufacturerTest">
+        <methods>
+          <include name="bC"/>
+          <include name="addproductbymanufacturer"/>
+        </methods>
+      </class> <!-- com.Procure.AddProductModule.addproductbymanufacturerTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="2" parallel="tests" name="Test1(failed)">
+    <classes>
+      <class name="com.Procure.Admin.addretailerwithmandatorytextfieldTest">
+        <methods>
+          <include name="addretailerwithmandatorytextfield"/>
+          <include name="config_BM"/>
+          <include name="config_BC"/>
+          <include name="config_BS"/>
+          <include name="config_AC"/>
+          <include name="config_AS"/>
+          <include name="config_AM"/>
+        </methods>
+      </class> <!-- com.Procure.Admin.addretailerwithmandatorytextfieldTest -->
+      <class name="com.Procure.Admin.updatemanufacturerTest">
+        <methods>
+          <include name="updatemanufacturer"/>
+          <include name="config_BM"/>
+          <include name="config_BS"/>
+          <include name="config_BC"/>
+          <include name="config_AS"/>
+          <include name="config_AC"/>
+          <include name="config_AM"/>
+        </methods>
+      </class> <!-- com.Procure.Admin.updatemanufacturerTest -->
+      <class name="com.Procure.Admin.checkinvoicebyidTest">
+        <methods>
+          <include name="config_BM"/>
+          <include name="config_BC"/>
+          <include name="config_BS"/>
+          <include name="config_AC"/>
+          <include name="config_AS"/>
+          <include name="config_AM"/>
+          <include name="checkinvoicebyid"/>
+        </methods>
+      </class> <!-- com.Procure.Admin.checkinvoicebyidTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
